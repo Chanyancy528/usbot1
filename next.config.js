@@ -18,9 +18,6 @@ module.exports = {
   images: {
     domains: ['your-image-domains'],
   },
-  experimental: {
-    optimizeFonts: true,
-  },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
