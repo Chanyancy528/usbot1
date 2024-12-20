@@ -10,7 +10,8 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "openai": "^4.24.1",
+    "@logtail/node": "^0.5.2",
+    "@logtail/winston": "^0.5.2",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-progress": "^1.0.3",
     "@radix-ui/react-toast": "^1.1.5",
@@ -18,14 +19,17 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "eventsource-parser": "^1.0.0",
+    "ioredis": "^5.4.2",
     "lucide-react": "latest",
     "next": "14.1.0",
+    "openai": "^4.24.1",
     "react": "^18",
     "react-dom": "^18",
     "react-speech-recognition": "^3.10.0",
     "socket.io-client": "^4.7.2",
     "tailwind-merge": "^2.5.5",
     "wavesurfer.js": "^7.6.5",
+    "zod": "^3.24.1",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
